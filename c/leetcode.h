@@ -9,6 +9,6 @@ void rotate_linear_space_helper(int* nums, int numsSize, int k,
 
 void rotate_linear_space(int* nums, int numsSize, int k);
 
-void rotate(int* nums, int numsSize, int k);
+void rotate_o_of_n_space(int* nums, int numsSize, int k);
 
 #endif
