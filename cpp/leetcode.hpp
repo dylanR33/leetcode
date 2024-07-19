@@ -5,7 +5,15 @@
 
 class Solution {
     public:
-        int removeElement(std::vector<int>& nums, int val);
+        // Remove all occurances of 'val' from the passed in vector.
+        //
+        // @param nums : vector to remove desired val from.
+        //
+        // @param val : value to remove from nums.
+        //
+        // return : the number of values in nums not equal to val.
+        int removeElementSolOne(std::vector<int>& nums, int val);
+        int removeElementSolTwo(std::vector<int>& nums, int val);
 
     private:
 
